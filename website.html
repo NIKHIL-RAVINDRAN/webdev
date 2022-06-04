@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Koulen&display=swap" rel="stylesheet">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-image: url("coffee.jpg");
+            background-repeat: no-repeat;
+            background-size: 100%;
+            width: auto ;
+        
+        }
+      
+
+        .navbar{
+            opacity: 0.7;
+            overflow: hidden;
+            border-radius: 10px;
+            background-color: rgb(177, 22, 11);
+            filter: drop-shadow(7px 32px 10px black);
+            position: static;
+        }
+        .container{
+            font-weight: bolder;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            float: left;
+            padding-top: 10px;
+            padding-left: 15px;
+            color: cornsilk;
+            font-style: italic;
+        }
+        .navbar a {
+            float: right;
+            color: #fcf9f9;
+            text-align: center;
+            padding-left: 40px;
+            padding-right: 60px;
+            padding-top: 16px;
+            padding-bottom: 16px;
+            text-decoration: none;
+            font-size: 17px;
+            font-weight: bolder;
+        }
+        
+        
+        .navbar a:hover {
+            background-color: rgb(248, 244, 244);
+            color: black;
+        }
+
+
+        .navbar a.active {
+            background-color: rgb(236, 230, 221);
+            color: rgb(31, 11, 11);
+        }
+        .intro{
+            display: flex;
+            color: cornsilk;
+            padding-top: 100px;
+            justify-content: center;
+            font-size: 50px;
+            font-family: 'Koulen', cursive;
+            margin-top: 90px;
+        }
+        .para{
+            display: flex;
+            color: rgb(238, 232, 220);
+            padding-top: 20px;
+            justify-content: center;
+            font-size: 30px;
+        }
+        .para2{
+            display: flex;
+            color: rgb(238, 232, 220);
+            justify-content: center;
+            font-size: 30px;
+        }
+        .btn{
+            
+            border-radius: 2.5rem;
+            padding-left: 5rem;
+            padding-right: 5rem;
+            padding-top: 1.5rem;
+            padding-bottom: 1.5rem;
+            margin-left: 470px;
+            margin-top: 50px;
+            position: relative;
+            transition: all 0.3s;
+            color: rgb(237, 243, 243);
+            background: rgb(197, 150, 89);
+            font-weight: bolder;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            letter-spacing: 2px;
+            opacity: 0.8;
+            font-size: 20px;
+
+
+        }
+        .btn:hover{
+            background:transparent;
+            letter-spacing: 4px;
+            padding-left: 8rem;
+            padding-right: 8rem;
+            cursor: pointer;
+            border-radius: 0;
+            border-left:none ;
+            border-right: none;
+            
+            
+        }
+        .btn::before{
+            top: 0;
+        }
+        .btn::after{
+            bottom: 0;
+
+        }
+        .service{
+            text-align: center;
+            height: 50px;
+            margin-right: 400px;
+            margin-top: 355px;
+            display: flex;
+            justify-content: center;
+        }
+        .box-1{
+            border-radius: 23px;
+            border: 2px solid chocolate;
+            margin-top: 20px;
+            text-align: center;
+            padding: 20px;
+            /* 
+            margin-left: 200px;
+            */
+            margin-right:400px;
+            background-color: rgb(253, 248, 246);
+           
+        }
+        .box-1 img{
+            height: 200px;
+        }
+       
+        .box-2{
+            border-radius: 23px;
+            border: 2px solid chocolate;
+            margin-top: 20px;
+            text-align: center;
+            padding: 20px;
+            /* 
+            margin-left: 200px;
+            */
+            margin-right:400px;
+            background-color: rgb(253, 248, 246);
+        }
+        .box-2 img{
+            height: 200px;
+        }
+        
+        
+
+        
+          
+    </style>
+</head>
+<body>
+    
+    <div class="navbar">
+        <div class="container">
+            <h1>CUBICLE</h1>
+        </div>
+        <a href="">ABOUT US</a>
+        <a href="">CONTACT US</a>
+        <a class="active" href="">HOME</a>
+    </div>
+    
+    <div class="intro">
+        
+               CAFFEINE AND FREELANCING    
+    </div>
+    <p class="para">
+        We provide you with the best place for working peacefully with some snacks and coffee to grab, so that 
+         <p class="para2">
+        you can perfectly balance your mind and work. 
+        </p>
+    </p>
+    <button class="btn">RESERVE</button>
+    <h1 class="service">
+        OUR SERVICES
+    </h1>
+    <div class="box">
+        <div class="box-1">
+            <img src="tlappy.png" alt="">
+            <h2>TABLES AND ROOMS
+            </h2>
+            <p class="p1">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi sit ad amet quidem pariatur repellat ipsam, quis sed, asperiores doloremque corporis veritatis vero blanditiis voluptate possimus soluta maxime ab earum ea ullam nemo et?
+            </p>
+        </div>
+
+        <div class="box-2">
+                <img src="tcoffee.png" alt="">
+        <h2>SNACKS AND BEVERAGES
+        </h2>
+            <p class="p2">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi sit ad amet quidem pariatur repellat ipsam, quis sed, asperiores doloremque corporis veritatis vero blanditiis voluptate possimus soluta maxime ab earum ea ullam nemo et?
+            </p>
+        </div>
+
+
+</body>
+</html>
